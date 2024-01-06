@@ -35,7 +35,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -55,7 +55,7 @@
                         <a class="nav-link text-success" aria-disabled="true">LOGIN</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-danger" aria-disabled="true" href="./pages/register.html">REGISTER</a>
+                        <a class="nav-link text-danger" aria-disabled="true">REGISTER</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -67,45 +67,24 @@
         </div>
     </nav>
 
-    <section class="hero text-success py-5 flex-grow-1">
-        <div class="container py-4">
-            <div class="row">
-                <div class="col-lg-6">
-                    <h1 class="display-4">Discover Sundarban</h1>
-                    <p class="fst-italic text-muted">The Sundarbans is a mangrove area located in the delta formed by
-                        the confluence of the Ganges, Brahmaputra, and Meghna Rivers in the Bay of Bengal. It is the
-                        largest mangrove forest in the world and is shared between Bangladesh and India. Learn more <a
-                            class="text-primary" href="#" target="_blank">Click here.</a></p>
-                </div>
-                <div class="col-lg-6">
-                    <img src="./images/1st-section-(2).jpg" class="img-fluid rounded-5" alt="sundarban">
-                </div>
+    <form action="#">
+        <div class="container mt-3">
+            <h1 class="display-4">Register with us</h1>
+            <div class="form-floating mb-3 mt-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Name">
+                <label for="floatingInput">Your Name</label>
             </div>
-        </div>
-    </section>
-
-    <section class="hero py-5 flex-grow-1 container">
-        <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-                <div class="col-md-4">
-                    <img src="./images/tiger.jpg" class="img-fluid rounded-start" alt="tiger">
-                </div>
-                <div class="col-md-8">
-                    <div class="card-body text-end">
-                        <h5 class="card-title">Desired Title</h5>
-                        <p class="fs-3 text-success">₹2500</p>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
-                        <a href="#" class="btn btn-primary"><i class="fa-regular fa-hand-pointer fa-beat"></i> BOOK
-                            NOW</a>
-                    </div>
-                </div>
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="Email">
+                <label for="floatingInput">Your Email</label>
             </div>
+            <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+            </div>
+            <a class="btn btn-success btn-lg text-white mt-2" type="submit">SUBMIT</a>
         </div>
-    </section>
-
-
+    </form>
 
 
     <!-- FOOTER -->
