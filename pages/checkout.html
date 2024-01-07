@@ -68,16 +68,29 @@
 
     <form action="#">
         <div class="container mt-3">
-            <h1 class="display-4">Login</h1>
-            <div class="form-floating mb-3 mt-3">
-                <input type="email" class="form-control" id="floatingInput" placeholder="Email">
-                <label for="floatingInput">Your Email</label>
+            <div class="row">
+                <div class="col-sm-6">
+                    <h1 class="display-4 text-success">Final Checkout</h1>
+                    <hr />
+                    <label for="selection" class="form-label">Price</label>
+                    <input class="form-control form-control-lg" type="text" placeholder="₹2500"
+                        aria-label=".form-control-lg" readonly />
+                    <label for="selection" class="form-label">Discount</label>
+                    <input class="form-control form-control-lg" type="text" placeholder="₹500"
+                        aria-label=".form-control-lg" readonly />
+                    <label for="selection" class="form-label">GST (State + Central)</label>
+                    <input class="form-control form-control-lg" type="text" placeholder="18%"
+                        aria-label=".form-control-lg" readonly />
+                </div>
+                <div class="col-sm-6">
+                    <h1 class="display-4 text-primary">Total</h1>
+                    <hr />
+                    <label for="selection" class="form-label">Net Total</label>
+                    <input class="form-control form-control-lg" type="text" placeholder="₹2100 incl. GST"
+                        aria-label=".form-control-lg" readonly />
+                    <a class="btn btn-success btn-lg text-white mt-2" href="">CHECK OUT</a>
+                </div>
             </div>
-            <div class="form-floating">
-                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                <label for="floatingPassword">Password</label>
-            </div>
-            <a class="btn btn-success btn-lg text-white mt-2" href="../index.html">LOGIN</a>
         </div>
     </form>
 

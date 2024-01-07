@@ -68,16 +68,28 @@
 
     <form action="#">
         <div class="container mt-3">
-            <h1 class="display-4">Login</h1>
-            <div class="form-floating mb-3 mt-3">
-                <input type="email" class="form-control" id="floatingInput" placeholder="Email">
-                <label for="floatingInput">Your Email</label>
+            <div class="row">
+                <div class="col-sm-6">
+                    <h1 class="display-4 text-success">All Jumbo Package</h1>
+                    <label for="selection" class="form-label">No. of Adults</label>
+                    <select id="selection" class="form-select form-select-lg mb-3" aria-label="Adult">
+                        <option selected>Adult</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="3">4</option>
+                    </select>
+                    <label for="selection2" class="form-label">No. of Children</label>
+                    <select id="selection2" class="form-select form-select-lg mb-3" aria-label="Children">
+                        <option selected>Child</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="3">4</option>
+                    </select>
+                </div>
             </div>
-            <div class="form-floating">
-                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                <label for="floatingPassword">Password</label>
-            </div>
-            <a class="btn btn-success btn-lg text-white mt-2" href="../index.html">LOGIN</a>
+            <a class="btn btn-success btn-lg text-white mt-2" href="./checkout.html">NEXT</a>
         </div>
     </form>
 
