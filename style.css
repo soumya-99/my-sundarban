@@ -1,5 +1,20 @@
 * {
 	margin: 0;
 	padding: 0;
-	/* background-color: #fbfdf7; */
+}
+
+body {
+	background-color: #f9ffe9;
+}
+
+.navbar {
+	background-color: #8a9579 !important;
+}
+
+.navbar a {
+	color: #f9ffe9 !important;
+}
+
+#carouselExampleAutoplaying img {
+	border-radius: 60px;
 }
